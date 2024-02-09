@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: linear-gradient(
+      to right top,
+      #d16ba5,
+      #c777b9,
+      #ba83ca,
+      #aa8fd8,
+      #9a9ae1,
+      #8aa7ec,
+      #79b3f4,
+      #69bff8,
+      #52cffe,
+      #41dfff,
+      #46eefa,
+      #5ffbf1
+    );
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    text-align: center;
+}
+
+.insertdate {
+    padding-top: 20px;
+    display: flex;
+    gap: 10px
+}
+
+.insertdate > input[type="text"] { 
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: medium;
+}
+
+.insertdate > button {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: white;
+    border: none
+}
+
+.insertdate > button:hover {
+    background-color: black;
+    color: white;
+}
+
+p {
+    font-size: medium;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.current > p {
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.remains {
+    padding-top: 20px;
+    display: flex;
+    column-gap: 20px;
+}
+.remains > span {
+    display: inline-flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    text-align: center;
+    font-weight: 500;
+
+    color: #0000ff;
+    text-shadow: 2px 2px #ff190063;
+
+    -webkit-box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 12px 34px rgba(0, 0, 0, 0.12);
+}
